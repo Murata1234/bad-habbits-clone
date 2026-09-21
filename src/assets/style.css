@@ -4,3 +4,11 @@
 body {
    font-family: 'Roboto', sans-serif; 
 }
+
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
